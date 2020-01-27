@@ -13,21 +13,55 @@
   gtag('config', 'UA-157025516-1');
 </script>
 
+<style>
+  body{
+    margin:0;
+  }
+  a {
+    color:black;
+    text-decoration : none;
+  }
+  h1 {
+    font-size : 50px;
+    text-align : center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+  #grid ol{
+    border-right:1px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+    padding-left:36px;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #article{
+    padding-left:28px;
+  }
+</style>
+
 </head>
 
 <body>
   <h1><a href="index.html">English Practice</a></h1>
-<ul>
-  <li><a href="1.html">1. Recent Movie</a></li>
-  <li><a href="2.html">2. Dental Braces</a></li>
-  <li><a href="3.html">3. Poor Eyesight</a></li>
-</ul>
-  <h2>치아 교정을 해 본 경험;<br>Talk about when you got dental braces.</h2>
-  <p>I'm an average-looking person. However, I do have crooked theeth. These days, good teeth are considered important. They are a big part of someone's first impression. The problem is that dental braces are very pricey. Usually, they are not covered by insurance. Also, they take a lot of time to work. It can takes two years to see the effects.</p>
-  <p>However, I decided to get braces. I didn't expect them to be so painful. They also get in the way when I eat. Bits of food always get stuck in the wires. However, I am willing to endure it. It's the price to pay to feel confident when I smile.</p>
+<div id="grid">
+  <ol>
+    <li><a href="1.html">Recent Movie</a></li>
+    <li><a href="2.html">Dental Braces</a></li>
+    <li><a href="3.html">Poor Eyesight</a></li>
+  </ol>
+  <div id="article">
+      <h2>치아 교정을 해 본 경험;<br>Talk about when you got dental braces.</h2>
+      <p>I'm an average-looking person. However, I do have crooked theeth. These days, good teeth are considered important. They are a big part of someone's first impression. The problem is that dental braces are very pricey. Usually, they are not covered by insurance. Also, they take a lot of time to work. It can takes two years to see the effects.</p>
+      <p>However, I decided to get braces. I didn't expect them to be so painful. They also get in the way when I eat. Bits of food always get stuck in the wires. However, I am willing to endure it. It's the price to pay to feel confident when I smile.</p>
+  </div>
+</div>
 
   <p>
-
     <div id="disqus_thread"></div>
 <script>
 
@@ -48,7 +82,6 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
   </p>
 </body>
 </html>
